@@ -16,14 +16,27 @@ The aim is to explore how everyday-looking textual reviews could potentially be 
 
 ---
 
+## 🧹 NLP Preprocessing Steps
+
+To prepare the text data for analysis, the following NLP preprocessing techniques were applied:
+
+- **Lowercasing** – Normalize text for uniformity.
+- **Tokenization** – Split reviews into individual words or tokens.
+- **Stopword Removal** – Eliminate common words that don't add much meaning (like *is*, *the*, *and*).
+- **Lemmatization** – Reduce words to their base or root form (e.g., *running* → *run*).
+- **Punctuation Removal** – Clean unnecessary characters.
+- **Vectorization** – Convert text into numerical format using methods like TF-IDF or CountVectorizer.
+
+---
+
 ## 📁 Contents
 
 - `NLP_STEGNORGRAPH_Final.ipynb` – Jupyter notebook containing the entire workflow:
-  - Data preprocessing and text cleaning
-  - Feature extraction
-  - Sentiment classification (possibly using ML/DL models)
-  - Steganographic analysis
-  - Results and visualization
+  - Text preprocessing and cleaning
+  - Feature extraction and transformation
+  - Sentiment classification (using ML or deep learning models)
+  - Steganographic message detection
+  - Evaluation and visualization of results
 
 ---
 
